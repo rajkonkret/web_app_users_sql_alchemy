@@ -13,3 +13,4 @@ Start-Process -NoNewWindow -FilePath "powershell" -ArgumentList "-ExecutionPolic
 
 z logami2
 Start-Process -NoNewWindow -FilePath "powershell" -ArgumentList "-ExecutionPolicy Bypass -File C:\Users\Administrator\PycharmProjects\web_app_users_sql_alchemy\start_flask.ps1" -RedirectStandardOutput C:\Users\Administrator\flask_log\flask_output.log -RedirectStandardError C:\Users\Administrator\flask_log\flask_error.log
+Start-Process -NoNewWindow -FilePath "powershell" -ArgumentList "-ExecutionPolicy Bypass -File C:\Users\Administrator\PycharmProjects\web_app_users_sql_alchemy\start_flask_native.ps1" -RedirectStandardOutput C:\Users\Administrator\flask_log\flask_output.log -RedirectStandardError C:\Users\Administrator\flask_log\flask_error.log
